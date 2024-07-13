@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 100vh;
+        }
+        .food{
+            width: 80%;
+            margin: auto;
+            gap: 2%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .items img{
+            width: 100%;
+            border-radius: 5px;
+
+        }
+        .items{
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <div class="items">
+                <img src="./image/donation3.jpg" alt="">
+            </div>
+            <div class="items">
+                <h1>Hello World</h1>
+                <p> I am a programmer</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In placeat atque harum, aperiam perferendis deleniti, temporibus distinctio modi maxime cum id mollitia incidunt laudantium. Ab tempora neque quibusdam? Odit, eaque!</p>
+            </div>
+        </div>
+    </div>
+    <!-- <img src="./image/donation3.jpg" alt=""> -->
+</body>
+</html>
